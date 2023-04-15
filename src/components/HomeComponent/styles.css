@@ -1,0 +1,96 @@
+
+.container {
+    background-color: #ffdb58; 
+    color: #000; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  nav {
+    background-color: #ffad33; 
+    padding: 1rem; 
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; 
+    margin-right: 1rem;
+  }
+  
+  nav ul li:hover {
+    color: #ff5722;
+  }
+  
+  section {
+    flex: 1; /* Take up remaining vertical space */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 2rem; /* Add some padding for spacing */
+  }
+  
+  section div {
+    text-align: center; /* Center text within div */
+  }
+  
+  section h1 {
+    font-size: 3rem; /* Increase font size for heading */
+    color: #ff5722; /* Orange color for heading */
+  }
+
+
+.textarea {
+    background-color: #fff; /* Set the background color */
+    color: #000; /* Set the text color */
+    padding: 12px; /* Set the padding */
+    font-size: 16px; /* Set the font size */
+    border: none; /* Remove the border */
+    resize: none; /* Disable textarea resize */
+    width: 100%; /* Set the width to 100% */
+    height: 150px; /* Set the height */
+    /* Add children's style */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    outline: none; /* Remove default outline */
+    transition: box-shadow 0.3s ease; /* Add transition effect */
+  }
+  
+  .textarea:focus {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add box shadow on focus */
+  }
+  
+.button {
+    background-color: #ffcccb; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 12px 24px; /* Set the padding */
+    font-size: 16px; /* Set the font size */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Add a cursor pointer */
+    margin-top: 16px; /* Add some top margin */
+    /* Add children's style */
+    border-radius: 50px; /* Make the button round */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .button:hover {
+    background-color: #ff9999; /* Change background color on hover */
+  }
+  
+  /* Styling for the footer */
+  footer {
+    background-color: #ffad33; /* Orange footer background color */
+    padding: 1rem; /* Add some padding for spacing */
+    text-align: center; /* Center text within footer */
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
